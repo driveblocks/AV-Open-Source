@@ -31,7 +31,7 @@
 | mmdetection3d | Apache 2.0 | [here](https://github.com/open-mmlab/mmdetection3d) | Python | Variety of Lidar Object Detection Models |
 | Open3D-ML | MIT | [here](https://github.com/isl-org/Open3D-ML) | Python | Variety of Lidar Object Detection Models |
 | OpenPCDet | Apache 2.0 | [here](https://github.com/open-mmlab/OpenPCDet) | Python | Variety of Lidar Object Detection Models  |
-
+| CFR-Net for Object detection | Apache 2.0 | [here](https://github.com/TUMFTM/CameraRadarFusionNet) | Python | Object detection with a neural net based on camera and radar data |
 
 
 ## Lane detection
@@ -71,7 +71,22 @@
 | image_common | None | [here](https://github.com/ros-perception/image_common/tree/noetic-devel) | C++ | Functions for handling images
 | ros_msft_onnx | MIT | [here](https://github.com/ms-iot/ros_msft_onnx) | C++ | Wrapper for inference with ONNX models
 
+## Prediction
+| Name | License | Link | Language | Short description |
+|---------------|--------------|----------------|-------------|---------------------------|
+| Wale-Net Prediction Network | LGPL-3.0 | [here](https://github.com/TUMFTM/Wale-Net) | Python | Encoder-decoder neural network for vehicle trajectory prediction with uncertainties | 
+
 ## Planning algorithms
+| Name | License | Link | Language | Short description |
+|---------------|--------------|----------------|-------------|---------------------------|
+| Global racetrajectory optimization | LGPL-3.0 | [here](https://github.com/TUMFTM/global_racetrajectory_optimization) | Python | Various approaches from minimum curvature to minimum time | 
+Graph-based local trajectory planner | LGPL-3.0 | [here](https://github.com/TUMFTM/GraphBasedLocalTrajectoryPlanner) | Python | Local trajectory planner with independent graph-based path and velocity planning
+Trajectory supervisor | LGPL-2.1 | [here](https://github.com/TUMFTM/TrajectorySupervisor) | Python | Online verification framework for autonomous vehicle trajectory planning
+
+## Control algorithms
+| Name | License | Link | Language | Short description |
+|---------------|--------------|----------------|-------------|---------------------------|
+Vehicle motion control | LGPL-3.0 | [here](https://github.com/TUMFTM/mod_vehicle_dynamics_control) | Simulink | Motion control (LQR) and state estimation for autonomous vehicles
 
 ## Hardware drivers
 | Name | License | Link | Language | Short description |
@@ -96,6 +111,7 @@
 | Name | Link | Short description |
 |---------------|----------------|---------------------------|
 | Racing overview | [here](https://github.com/JohannesBetz/AutonomousRacing_Literature) | Meta repository with papers and code
+| Autonomous Vehicles on the Edge: A Survey on Autonomous Vehicle Racing | [here](https://www.researchgate.net/publication/358632526_Autonomous_Vehicles_on_the_Edge_A_Survey_on_Autonomous_Vehicle_Racing) | Survey paper on autonomous vehicle racing
 | Oops! It's Too Late. Your Autonomous Driving System Needs a Faster Middleware | [here](https://www.semanticscholar.org/paper/Oops!-It's-Too-Late.-Your-Autonomous-Driving-System-Wu-Wu/a60c0ccf8c3cec22fc401277626b0c67e551e5ea) | Analysis of ROS1 / ROS2 / Cyber with respect to latency and performance |
 | A Self-Driving Car Architecture in ROS2 | [here](https://ieeexplore.ieee.org/abstract/document/9041020) | Software architecture for a vehicle with ROS2
 | Real-time configuration with ROS2 | [here](https://answers.ros.org/question/382893/best-practices-for-real-time-capabilites-in-ros2/) | Details on configuration of ROS2 and OS for RT performance
