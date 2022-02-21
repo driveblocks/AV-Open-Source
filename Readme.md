@@ -1,3 +1,4 @@
+This repository provides a list of relevant ROS2 packages and other open source packages in the autonomous driving space. There are other great lists with slightly different scope for [ROS2](https://fkromer.github.io/awesome-ros2/) and general [robotics](http://jslee02.github.io/awesome-robotics-libraries/). 
 
 ## Software stacks
 | Name | License | Link | Language | Short description |
@@ -33,9 +34,7 @@
 | OpenPCDet | Apache 2.0 | [here](https://github.com/open-mmlab/OpenPCDet) | Python | Variety of Lidar Object Detection Models  |
 | CFR-Net for Object detection | Apache 2.0 | [here](https://github.com/TUMFTM/CameraRadarFusionNet) | Python | Object detection with a neural net based on camera and radar data |
 
-
 ## Lane detection
-
 | Name | License | Link | Language | Short description |
 |---------------|--------------|----------------|-------------|---------------------------|
 | Papers with Code | |  [here](https://paperswithcode.com/task/lane-detection) | | Overview Page with Benchmarks |
@@ -47,7 +46,6 @@
 | Ultra-Fast-Lane-Detection | MIT | [here](https://github.com/cfzd/Ultra-Fast-Lane-Detection) | Python | 300+ FPS in Benchmark|
 | Codes-for-Lane-Detection | MIT | [here](https://github.com/cardwing/Codes-for-Lane-Detection) | Python | Several Networks |
 | LaneAF | None | [here](https://github.com/sel118/LaneAF) | Python |Robust Multi-Lane Detection with Affinity Fields |
-
 
 ## 3D segmentation
 | Name | License | Link | Language | Short description |
@@ -105,7 +103,6 @@ Vehicle motion control | LGPL-3.0 | [here](https://github.com/TUMFTM/mod_vehicle
 | Foxglove | MPL-2.0 | [here](https://github.com/foxglove/studio) | | Web-based visualization and diagnosis tool
 | Webviz | Apache 2.0 | [here](https://github.com/cruise-automation/webviz) | | Web-based visualization and diagnosis tool
 | PlotJuggler | LGPL-3.0 | [here](https://github.com/facontidavide/PlotJuggler) | | Time-series visualization tool
-
 
 ## Papers & Articles
 | Name | Link | Short description |
