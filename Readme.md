@@ -79,6 +79,7 @@ This repository provides a list of relevant ROS2 packages and other open source 
 |---------------|--------------|----------------|-------------|---------------------------|
 | Global racetrajectory optimization | LGPL-3.0 | [here](https://github.com/TUMFTM/global_racetrajectory_optimization) | Python | Various approaches from minimum curvature to minimum time | 
 Graph-based local trajectory planner | LGPL-3.0 | [here](https://github.com/TUMFTM/GraphBasedLocalTrajectoryPlanner) | Python | Local trajectory planner with independent graph-based path and velocity planning
+Velocity optimization module | LGPL-3.0 | [here](https://github.com/TUMFTM/velocity_optimization) | Python | Optimization-based vleocity planning module considering external parameters (e.g., the friction coefficient or a maximum power limit)
 Trajectory supervisor | LGPL-2.1 | [here](https://github.com/TUMFTM/TrajectorySupervisor) | Python | Online verification framework for autonomous vehicle trajectory planning
 
 ## Control algorithms
